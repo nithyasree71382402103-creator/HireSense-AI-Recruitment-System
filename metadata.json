@@ -1,0 +1,6 @@
+{
+  "name": "HireSense AI - Recruitment System",
+  "description": "Production-grade AI Resume Recruitment System with semantic job matching, ATS scoring, skill gap analysis, and candidate-recruiter workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

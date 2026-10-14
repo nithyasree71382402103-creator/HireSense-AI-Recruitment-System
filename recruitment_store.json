@@ -1,0 +1,338 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "recruiter@hiresense.ai",
+      "password_hash": "$2b$10$Zxn3XwTSYCqoLWLUfvz7lO7ZZ/dEz841ssUWnw.Qo1W7u90KzHzvu",
+      "role": "recruiter",
+      "full_name": "Sarah Jenkins",
+      "company_name": "Apex Global Technologies",
+      "location": "San Francisco, CA",
+      "profile_id": 1,
+      "created_at": "2026-10-08T09:14:28.067Z"
+    },
+    {
+      "id": 2,
+      "email": "candidate@hiresense.ai",
+      "password_hash": "$2b$10$zbCjYL8I5TBF86ehmZuX8u.TbIKgp41dId..CwkOQB5Mg0RYEyvXK",
+      "role": "candidate",
+      "full_name": "Alex Rivera",
+      "location": "Austin, TX",
+      "profile_id": 2,
+      "created_at": "2026-10-08T09:14:28.067Z"
+    },
+    {
+      "id": 3,
+      "email": "candidate2@hiresense.ai",
+      "password_hash": "$2b$10$zbCjYL8I5TBF86ehmZuX8u.TbIKgp41dId..CwkOQB5Mg0RYEyvXK",
+      "role": "candidate",
+      "full_name": "David Chen",
+      "location": "Seattle, WA",
+      "profile_id": 3,
+      "created_at": "2026-10-08T09:14:28.067Z"
+    },
+    {
+      "id": 4,
+      "email": "nithyasree.71382402103@sritcbe.ac.in",
+      "password_hash": "$2b$10$EhkuhpO1BKzElEDdpYltLuRkCaylxxquqgf3XvCyCnjS/AEM22M9S",
+      "role": "candidate",
+      "full_name": "NITHYASREE MURUGESAN",
+      "location": "coimbatore",
+      "profile_id": 4,
+      "created_at": "2026-10-08T09:14:31.729Z"
+    },
+    {
+      "id": 5,
+      "email": "newrecruiter@example.com",
+      "password_hash": "$2b$10$RNBx/XATGYBEhD0D1ySbAOJl8JYWNn3BSlMYEplRufsHGFnN7xn2C",
+      "role": "recruiter",
+      "full_name": "Recruiter Demo",
+      "company_name": "Tech Innovations",
+      "location": "Bangalore",
+      "profile_id": 5,
+      "created_at": "2026-10-08T09:14:55.391Z"
+    }
+  ],
+  "resumes": [
+    {
+      "id": 1,
+      "candidate_id": 2,
+      "file_name": "Alex_Rivera_Resume.pdf",
+      "file_type": "pdf",
+      "ats_score": 63.5,
+      "score_breakdown": {
+        "skill_match": 70,
+        "keyword_relevance": 60,
+        "education": 100,
+        "experience": 60,
+        "projects": 33,
+        "certifications": 50,
+        "completeness": 100
+      },
+      "score_explanation": {
+        "positives": [
+          "Strong proficiency verified in Python",
+          "Modern frontend capability verified in React",
+          "Solid relational database background documented",
+          "Formal academic credentials verified"
+        ],
+        "areas_to_improve": [
+          "Consider adding containerization skills (e.g. Docker, Kubernetes)",
+          "Cloud platform familiarity (AWS/GCP) is recommended for modern roles",
+          "Showcasing 2-3 end-to-end full stack projects improves competitive ranking"
+        ],
+        "summary": "Candidate achieved an ATS rating of 63.5%. Resume demonstrates strong technical competency with clear alignment."
+      },
+      "completeness_score": 100,
+      "created_at": "2026-10-08T09:14:28.067Z",
+      "raw_text": "Alex Rivera Software Engineer Python React PostgreSQL FastAPI",
+      "skills": [
+        {
+          "name": "Python",
+          "category": "Programming Languages",
+          "proficiency": "Advanced"
+        },
+        {
+          "name": "React",
+          "category": "Frameworks",
+          "proficiency": "Advanced"
+        },
+        {
+          "name": "FastAPI",
+          "category": "Frameworks",
+          "proficiency": "Intermediate"
+        },
+        {
+          "name": "PostgreSQL",
+          "category": "Databases",
+          "proficiency": "Intermediate"
+        },
+        {
+          "name": "JavaScript",
+          "category": "Programming Languages",
+          "proficiency": "Advanced"
+        },
+        {
+          "name": "Git",
+          "category": "Tools",
+          "proficiency": "Advanced"
+        },
+        {
+          "name": "Tailwind CSS",
+          "category": "Frameworks",
+          "proficiency": "Advanced"
+        }
+      ],
+      "education": [
+        {
+          "degree": "B.S. in Computer Science",
+          "university": "UT Austin",
+          "graduation_year": "2023",
+          "gpa": "3.85"
+        }
+      ],
+      "experience": [
+        {
+          "company": "TechPulse Labs",
+          "role": "Software Engineer",
+          "duration": "2023 - Present",
+          "responsibilities": "Built scalable APIs in Python and React. Improved PostgreSQL query latency by 35%."
+        }
+      ],
+      "projects": [
+        {
+          "name": "HireSense Platform",
+          "description": "AI recruitment matching portal",
+          "technologies": "React, Python, PostgreSQL"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AWS Certified Cloud Practitioner",
+          "issuing_organization": "Amazon Web Services",
+          "issue_year": "2024"
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "recruiter_id": 1,
+      "title": "Senior Full Stack Engineer",
+      "company": "Apex Global Technologies",
+      "location": "San Francisco, CA (Hybrid)",
+      "employment_type": "Full-time",
+      "description": "We are seeking an experienced Full Stack Engineer to build high-performance cloud applications with Python/FastAPI, modern React user interfaces, and PostgreSQL.",
+      "education": "Bachelor's Degree in Computer Science or related field",
+      "min_experience_years": 3,
+      "salary_range": "$140,000 - $175,000",
+      "is_active": true,
+      "created_at": "2026-10-08T09:14:28.068Z",
+      "skills": [
+        {
+          "id": 1,
+          "name": "Python",
+          "is_required": true,
+          "category": "Programming Languages"
+        },
+        {
+          "id": 2,
+          "name": "React",
+          "is_required": true,
+          "category": "Frameworks"
+        },
+        {
+          "id": 3,
+          "name": "FastAPI",
+          "is_required": true,
+          "category": "Frameworks"
+        },
+        {
+          "id": 4,
+          "name": "PostgreSQL",
+          "is_required": true,
+          "category": "Databases"
+        },
+        {
+          "id": 5,
+          "name": "TypeScript",
+          "is_required": true,
+          "category": "Programming Languages"
+        },
+        {
+          "id": 6,
+          "name": "Docker",
+          "is_required": true,
+          "category": "Tools"
+        },
+        {
+          "id": 7,
+          "name": "AWS",
+          "is_required": false,
+          "category": "Cloud"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "recruiter_id": 1,
+      "title": "AI / ML Backend Engineer",
+      "company": "Apex Global Technologies",
+      "location": "Remote (US)",
+      "employment_type": "Full-time",
+      "description": "Join us to engineer production inference pipelines, data modeling architectures, and robust API endpoints with automated monitoring.",
+      "education": "Master's or Bachelor's in CS, AI, or Data Science",
+      "min_experience_years": 2,
+      "salary_range": "$130,000 - $160,000",
+      "is_active": true,
+      "created_at": "2026-10-08T09:14:28.068Z",
+      "skills": [
+        {
+          "id": 8,
+          "name": "Python",
+          "is_required": true,
+          "category": "Programming Languages"
+        },
+        {
+          "id": 9,
+          "name": "FastAPI",
+          "is_required": true,
+          "category": "Frameworks"
+        },
+        {
+          "id": 10,
+          "name": "Docker",
+          "is_required": true,
+          "category": "Tools"
+        },
+        {
+          "id": 11,
+          "name": "AWS",
+          "is_required": false,
+          "category": "Cloud"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "recruiter_id": 1,
+      "title": "Frontend Platform Engineer",
+      "company": "Apex Global Technologies",
+      "location": "New York, NY",
+      "employment_type": "Full-time",
+      "description": "Lead the frontend architecture of our next-generation hiring intelligence platform. Collaborate with UI/UX designers to craft responsive, accessible web experiences.",
+      "education": "Bachelor's in Computer Science or equivalent experience",
+      "min_experience_years": 2,
+      "salary_range": "$125,000 - $155,000",
+      "is_active": true,
+      "created_at": "2026-10-08T09:14:28.068Z",
+      "skills": [
+        {
+          "id": 12,
+          "name": "React",
+          "is_required": true,
+          "category": "Frameworks"
+        },
+        {
+          "id": 13,
+          "name": "TypeScript",
+          "is_required": true,
+          "category": "Programming Languages"
+        },
+        {
+          "id": 14,
+          "name": "Tailwind CSS",
+          "is_required": true,
+          "category": "Frameworks"
+        },
+        {
+          "id": 15,
+          "name": "Git",
+          "is_required": true,
+          "category": "Tools"
+        }
+      ]
+    }
+  ],
+  "applications": [
+    {
+      "id": 1,
+      "candidate_id": 2,
+      "job_id": 1,
+      "resume_id": 1,
+      "status": "Under Review",
+      "match_score": 75.4,
+      "applied_at": "2026-10-06T09:14:28.068Z",
+      "status_updated_at": "2026-10-08T09:14:28.068Z",
+      "notes": "Strong technical background; partial skill transferability on TypeScript via JavaScript."
+    },
+    {
+      "id": 2,
+      "candidate_id": 3,
+      "job_id": 1,
+      "status": "Shortlisted",
+      "match_score": 84,
+      "applied_at": "2026-10-05T09:14:28.068Z",
+      "status_updated_at": "2026-10-08T09:14:28.068Z",
+      "notes": "Exceptional cloud and DevOps background."
+    },
+    {
+      "id": 3,
+      "candidate_id": 2,
+      "job_id": 2,
+      "resume_id": 1,
+      "status": "Applied",
+      "match_score": 68.5,
+      "applied_at": "2026-10-07T09:14:28.068Z",
+      "status_updated_at": "2026-10-08T09:14:28.068Z",
+      "notes": "Direct application submitted."
+    }
+  ],
+  "nextIds": {
+    "user": 6,
+    "resume": 2,
+    "job": 4,
+    "application": 4
+  }
+}
