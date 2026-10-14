@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+backend/.env
+venv/
+__pycache__/
+*.pyc
+uploads/
+recruitment.db
+*.sqlite3
+.DS_Store
